@@ -9,7 +9,7 @@ import {
 import { IconContext } from 'react-icons'
 import './member.scss'
 
-function member() {
+function Member() {
   return (
     <div className="custom-container">
       <Row className="border border-5 rounded-5">
@@ -127,4 +127,4 @@ function member() {
   )
 }
 
-export default member
+export default Member

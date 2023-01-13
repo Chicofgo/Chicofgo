@@ -16,7 +16,7 @@ import {
 } from 'react-icons/bs'
 import { IconContext } from 'react-icons'
 
-function changePassword() {
+function ChangePassword() {
   return (
     <div className="custom-container">
       <Row className="border border-5 rounded-5">
@@ -110,4 +110,4 @@ function changePassword() {
   )
 }
 
-export default changePassword
+export default ChangePassword
