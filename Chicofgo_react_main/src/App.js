@@ -1,3 +1,4 @@
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './Layout/Navbar/Navbar';
 import Path from './Layout/Item/Path/Path';
@@ -17,11 +18,17 @@ import AddressDetail from './Pages/Account/address/AddressDetail';
 // import Navbaro from './component/navbar-or'
 // import Carousel from './component/carousel'
 
+import Footer from './Layout/Footer/Footer';
+import Products from './Pages/Products/Products';
+import ProductDetail from './Pages/Products/Product_detail/ProductDetail';
+
+
 function App() {
   return (
     <>
       <BrowserRouter>
         <Navbar />
+
         {/* <Path /> */}
         <MemberSideBar />
         <Routes>
@@ -39,6 +46,7 @@ function App() {
             <Route index element={}
           </Route> */}
         </Routes>
+
       </BrowserRouter>
     </>
   );

@@ -1,0 +1,56 @@
+$mainColor:rgb(161, 113, 98);
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@mixin make-container($padding-x: $container-padding-x) {
+    width: 70%;
+    max-width: 1440px;
+    padding-right: $padding-x;
+    padding-left: $padding-x;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+// Usage
+.custom-container {
+    @include make-container();
+  }
+
+
+
+
+.mainbackground {
+    background-color:rgb(161, 113, 98);
+}
+
+.foot_a:hover {
+    color: rgb(54, 111, 84);
+
+}
+
+.foor_container {
+    padding-left: 7%;
+}
+
+.btn1 {
+    color: whitesmoke;
+    height: 36px;
+    width: 140px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 3px 12px  black;
+    background-color:rgb(161, 113, 98);
+    
+}
+.btn1:hover {
+    background-color:  rgb(166, 155, 132);
+    box-shadow: none;
+    transition: .5s;
+}
+

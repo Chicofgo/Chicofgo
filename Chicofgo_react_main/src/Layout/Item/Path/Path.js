@@ -1,3 +1,4 @@
+
 import React from 'react';
 import styles from './Path.module.scss';
 import { v4 } from 'uuid';
@@ -10,6 +11,9 @@ const Path = ({ pathObj, backgroundColor, url = [] }) => {
 
   return (
     <div className={` ${Path}`}>
+
+
+
       <div className={`${Path_font} ${Path_wrap} d-flex align-items-center`}>
         <Link to="/">
           <span className="maincolor">首頁</span>
@@ -22,6 +26,7 @@ const Path = ({ pathObj, backgroundColor, url = [] }) => {
             >
               <span className="maincolor">{path}</span>
             </Link>
+
           );
         })}
       </div>
@@ -30,3 +35,4 @@ const Path = ({ pathObj, backgroundColor, url = [] }) => {
 };
 
 export default Path;
+
