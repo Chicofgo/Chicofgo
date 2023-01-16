@@ -16,8 +16,8 @@ import {
   BsFillPencilFill,
 } from 'react-icons/bs';
 import { IconContext } from 'react-icons';
-import MemberBar from '../../components/MemberBar';
-import './creditcard.scss';
+import MemberBar from '../components/MemberBar';
+import './Creditcard.scss';
 
 function Creditcard() {
   return (

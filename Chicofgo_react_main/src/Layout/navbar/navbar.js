@@ -20,7 +20,7 @@ import {
   BsFillPersonFill,
   BsFillCartFill,
 } from 'react-icons/bs';
-import './navbar.scss';
+import './Navbar.scss';
 
 function NavScrollExample() {
   return (

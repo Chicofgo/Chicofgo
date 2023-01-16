@@ -16,8 +16,8 @@ import {
   BsFillPencilFill,
 } from 'react-icons/bs';
 import { IconContext } from 'react-icons';
-import MemberBar from '../../components/MemberBar';
-import './address.scss';
+import MemberBar from '../components/MemberBar';
+import './Address.scss';
 
 function address() {
   return (

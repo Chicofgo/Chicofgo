@@ -7,12 +7,15 @@ import {
   BsFillPencilFill,
 } from 'react-icons/bs';
 import { IconContext } from 'react-icons';
-import './account.scss';
-import MemberBar from '../components/MemberBar';
+import './Account.scss';
+import '../../Global-styles/global.scss';
+import MemberBar from './components/MemberBar';
+import Path from '../../Layout/Item/Path/Path';
 
 function Account() {
   return (
-    <div className="custom-container accountWidth mt-5">
+    <div className="custom-container accountWidth mt-5 ">
+    <Path pathObj={{ path: ['．會員'] }} />
       <Row className="border border-5 rounded-5 justify-content-md-center">
         <MemberBar />
 
@@ -24,7 +27,7 @@ function Account() {
             alt=""
             width={150}
             height={150}
-            src={require('../../Layout/navbar/logo.png')}
+            src={require('../../Layout/Navbar/logo.png')}
             className="border border-3 rounded-circle  test"
           />
         </Col>

@@ -1,0 +1,40 @@
+
+@import '../../../Global-styles/Global.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap'); 
+
+
+
+.img1 {
+  object-fit: contain;
+  
+}
+
+
+footer {
+  margin: auto;
+  height: 370px;
+  background-color: rgb(238, 238, 238);
+}
+
+.sociallink-wrap {
+ padding-left: 17%;
+ padding-right: 17%;
+}
+
+.foot_a {
+text-decoration: none;
+font-family: 'Roboto', sans-serif;
+font-size: 17px;
+color: black;
+font-weight: bold;
+}
+
+.sociallink a img{
+  width: 48px;
+  height: 48px;
+  margin-top: 20px;
+}
+.sociallink {
+  margin-top: -20px;
+}
+

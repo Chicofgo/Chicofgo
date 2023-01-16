@@ -15,8 +15,8 @@ import {
   BsFillPencilFill,
 } from 'react-icons/bs';
 import { IconContext } from 'react-icons';
-import MemberBar from '../../components/MemberBar';
-import './changePassword.scss';
+import MemberBar from '../components/MemberBar';
+import './ChangePassword.scss';
 
 function ChangePassword() {
   return (

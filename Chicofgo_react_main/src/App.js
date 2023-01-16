@@ -1,16 +1,17 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './Layout/navbar/Navbar';
+import Navbar from './Layout/Navbar/Navbar';
+import Path from './Layout/Item/Path/Path';
 import Home from './Pages/Home';
 import Products from './Pages/Products';
 import Event from './Pages/Event';
 import Coupon from './Pages/Coupon';
-import Account from './Pages/account/Account';
-import Password from './Pages/account/password/ChangePassword';
-import Creditcard from './Pages/account/creditcard/Creditcard';
-import CardDetail from './Pages/account/creditcard/CardDetail';
-import Address from './Pages/account/address/Address';
-import MemberSideBar from './Pages/components/MemberSideBar';
-import AddressDetail from './Pages/account/address/AddressDetail';
+import Account from './Pages/Account/Account';
+import Password from './Pages/Account/password/ChangePassword';
+import Creditcard from './Pages/Account/creditcard/Creditcard';
+import CardDetail from './Pages/Account/creditcard/CardDetail';
+import Address from './Pages/Account/address/Address';
+import MemberSideBar from './Pages/Account/components/MemberSideBar';
+import AddressDetail from './Pages/Account/address/AddressDetail';
 // import ChangePassword from './Pages/account/password/changePassword';
 // import Sidebar from './Layout/sidebar/sidebar'
 // import Navbaro from './component/navbar-or'
@@ -21,6 +22,7 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
+        {/* <Path /> */}
         <MemberSideBar />
         <Routes>
           <Route path="home" element={<Home />} />

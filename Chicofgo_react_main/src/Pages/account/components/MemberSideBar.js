@@ -15,7 +15,7 @@ import {
   BsFillCartFill,
 } from 'react-icons/bs';
 
-import './memberSideBar.scss';
+import './MemberSideBar.scss';
 
 function memberSideBar() {
   return (
