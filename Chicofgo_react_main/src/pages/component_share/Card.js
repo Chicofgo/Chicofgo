@@ -1,6 +1,6 @@
-import React from 'react'
-import styles from './Card.module.scss'
-import testpic from '../../img/productstest/test.jpg'
+import React from 'react';
+import styles from './Card.module.scss';
+import testpic from '../../Img/productstest/test.jpg';
 
 const Card = () => {
   const {
@@ -11,7 +11,7 @@ const Card = () => {
     text_contorl,
     evaluate,
     keepshop,
-  } = styles
+  } = styles;
   return (
     <div className={`${card_contorl}`}>
       <div className={`${card_body} card`}>
@@ -35,7 +35,7 @@ const Card = () => {
         <div className={`${keepshop} card-img-bottom`}></div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;

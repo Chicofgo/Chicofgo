@@ -10,6 +10,7 @@ $mainColor:rgb(161, 113, 98);
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 @mixin make-container($padding-x: $container-padding-x) {
     width: 70%;
+    max-width: 1440px;
     padding-right: $padding-x;
     padding-left: $padding-x;
     margin-right: auto;

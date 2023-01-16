@@ -2,14 +2,14 @@ import React from 'react'
 import styles from './Path.module.scss'
 import { v4 } from 'uuid'
 import { Link } from 'react-router-dom'
-import '../../../global-styles/global.scss'
+import '../../../Global-styles/global.scss'
 
 const Path = ({ pathObj, backgroundColor, url = [] }) => {
   const newUrl = url.length
-  const { Path_font, Path_wrap } = styles
+  const { Path_font, Path_wrap,  Path} = styles
 
   return (
-    <div className="custom-container Path">
+    <div className={`custom-container ${Path}`} >
       <div className={`${Path_font} ${Path_wrap} d-flex align-items-center`}>
         <Link to="/">
           <span className="maincolor">首頁</span>

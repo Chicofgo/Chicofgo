@@ -1,0 +1,33 @@
+body{
+  
+  padding-top: 60px;
+}
+
+.navbar-h{
+  position: sticky;
+}
+
+.navbar-w{
+   width: 100% ;
+   background-color:white;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+@import '~bootstrap/scss/bootstrap';
+
+
+
+
+@mixin make-container($padding-x: $container-padding-x) {
+    width: 80%;
+    padding-right: $padding-x;
+    padding-left: $padding-x;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+// Usage
+.custom-container {
+    @include make-container();
+  }
+  

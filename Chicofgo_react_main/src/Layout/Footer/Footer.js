@@ -1,11 +1,11 @@
 import React from 'react'
 // import './css/Footer.scss'
-import logoSVG from '../../img/logo.svg'
+import logoSVG from '../../Img/logo.svg'
 import { Link, Router } from 'react-router-dom'
-import logotw from '../../img/twitter.svg'
-import logofb from '../../img/facebook.svg'
-import logoyt from '../../img/youtube.svg'
-import logoig from '../../img/instagram.svg'
+import logotw from '../../Img/twitter.svg'
+import logofb from '../../Img/facebook.svg'
+import logoyt from '../../Img/youtube.svg'
+import logoig from '../../Img/instagram.svg'
 import styles from '../Footer/css/Footer.module.scss'
 
 
