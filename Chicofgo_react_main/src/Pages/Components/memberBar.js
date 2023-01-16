@@ -25,7 +25,6 @@ function MemberBar() {
         <IconContext.Provider value={{ className: 'icon' }}>
           <Link
             to="/account"
-            href="#"
             className="px-2 mx-2 my-2 link-light text-decoration-none border"
           >
             <BsPerson />
@@ -39,20 +38,21 @@ function MemberBar() {
             <BsPencil />
             修改密碼
           </Link>
-          <a
-            href="#"
-            className="px-2 mx-2 my-2 link-light text-decoration-none border"
+          <Link
+            to="/creditcard"
+            className="px-2 mx-2 my-2 link-light
+            text-decoration-none border"
           >
             <BsCreditCard2Back />
             信用卡
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            to="/address"
             className="px-2 mx-2 my-2 link-light text-decoration-none border"
           >
             <BsGeoAlt />
             地址
-          </a>
+          </Link>
         </IconContext.Provider>
       </div>
     </Col>

@@ -1,0 +1,23 @@
+
+
+.memberSideBarSide{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100% !important;
+    width: 13% !important;
+    
+}
+
+// .memberSideBarWidth{
+//     width: 5% !important;
+// }
+
+
+.memberSideBarPadding{
+    padding-top: 170px;
+}
+
+
+
+@import '~bootstrap/scss/bootstrap';

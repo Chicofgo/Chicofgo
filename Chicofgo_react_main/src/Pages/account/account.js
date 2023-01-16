@@ -12,12 +12,12 @@ import MemberBar from '../Components/memberBar';
 
 function Account() {
   return (
-    <div className="custom-container">
-      <Row className="border border-5 rounded-5">
+    <div className="custom-container accountWidth">
+      <Row className="border border-5 rounded-5 justify-content-md-center">
         <MemberBar />
-        <Col sm={1}></Col>
+
         <Col
-          sm={2}
+          sm={3}
           className="d-flex text-center align-items-center justify-content-center"
         >
           <Image
@@ -28,7 +28,7 @@ function Account() {
             className="border border-3 rounded-circle  test"
           />
         </Col>
-        <Col sm={8} className="border p-5 rounded-5 mb-5 mt-3">
+        <Col sm={6} className="border p-5 rounded-5 mb-5 mt-3">
           <Form>
             <h2 className="text-center">我的帳號</h2>
             <h5 className="h5-border-button">
@@ -89,7 +89,7 @@ function Account() {
             <h5>生日：1999/3/27</h5>
           </Form>
         </Col>
-        <Col sm={1}></Col>
+        {/* <Col sm={1}></Col> */}
       </Row>
     </div>
   );

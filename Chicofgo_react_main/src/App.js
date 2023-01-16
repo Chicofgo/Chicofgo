@@ -6,6 +6,11 @@ import Event from './Pages/Event';
 import Coupon from './Pages/Coupon';
 import Account from './Pages/account/account';
 import Password from './Pages/account/password/changePassword';
+import Creditcard from './Pages/account/creditcard/Creditcard';
+import CardDetail from './Pages/account/creditcard/cardDetail';
+import Address from './Pages/account/address/address';
+import MemberSideBar from './Pages/Components/memberSideBar';
+import AddressDetail from './Pages/account/address/addressDetail';
 // import ChangePassword from './Pages/account/password/changePassword';
 // import Sidebar from './Layout/sidebar/sidebar'
 // import Navbaro from './component/navbar-or'
@@ -16,6 +21,7 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
+        <MemberSideBar />
         <Routes>
           <Route path="home" element={<Home />} />
           <Route path="products" element={<Products />} />
@@ -23,6 +29,13 @@ function App() {
           <Route path="coupon" element={<Coupon />} />
           <Route path="account" element={<Account />} />
           <Route path="password" element={<Password />} />
+          <Route path="creditcard" element={<Creditcard />} />
+          <Route path="cardDetail" element={<CardDetail />} />
+          <Route path="address" element={<Address />} />
+          <Route path="addressDatail" element={<AddressDetail />} />
+          {/* <Route path="/">
+            <Route index element={}
+          </Route> */}
         </Routes>
       </BrowserRouter>
     </>

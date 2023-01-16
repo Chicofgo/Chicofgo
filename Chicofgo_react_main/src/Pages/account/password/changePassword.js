@@ -16,14 +16,15 @@ import {
 } from 'react-icons/bs';
 import { IconContext } from 'react-icons';
 import MemberBar from '../../Components/memberBar';
+import './changePassword.scss';
 
 function ChangePassword() {
   return (
-    <div className="custom-container">
+    <div className="custom-container passwordWidth">
       <Row className="border border-5 rounded-5">
         <MemberBar />
         <div className="d-flex justify-content-center">
-          <Col sm={5} className="border m-5 p-5 ">
+          <Col sm={8} className="border rounded-5 m-5 p-5 ">
             <h2 className="text-center">我的密碼</h2>
             <InputGroup className="mb-3">
               <InputGroup.Text>舊密碼</InputGroup.Text>
