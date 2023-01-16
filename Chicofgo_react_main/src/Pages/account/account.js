@@ -8,11 +8,11 @@ import {
 } from 'react-icons/bs';
 import { IconContext } from 'react-icons';
 import './account.scss';
-import MemberBar from '../Components/memberBar';
+import MemberBar from '../components/MemberBar';
 
 function Account() {
   return (
-    <div className="custom-container accountWidth">
+    <div className="custom-container accountWidth mt-5">
       <Row className="border border-5 rounded-5 justify-content-md-center">
         <MemberBar />
 

@@ -4,13 +4,13 @@ import Home from './Pages/Home';
 import Products from './Pages/Products';
 import Event from './Pages/Event';
 import Coupon from './Pages/Coupon';
-import Account from './Pages/account/account';
-import Password from './Pages/account/password/changePassword';
+import Account from './Pages/account/Account';
+import Password from './Pages/account/password/ChangePassword';
 import Creditcard from './Pages/account/creditcard/Creditcard';
-import CardDetail from './Pages/account/creditcard/cardDetail';
-import Address from './Pages/account/address/address';
-import MemberSideBar from './Pages/Components/memberSideBar';
-import AddressDetail from './Pages/account/address/addressDetail';
+import CardDetail from './Pages/account/creditcard/CardDetail';
+import Address from './Pages/account/address/Address';
+import MemberSideBar from './Pages/components/MemberSideBar';
+import AddressDetail from './Pages/account/address/AddressDetail';
 // import ChangePassword from './Pages/account/password/changePassword';
 // import Sidebar from './Layout/sidebar/sidebar'
 // import Navbaro from './component/navbar-or'
